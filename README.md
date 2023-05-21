@@ -14,5 +14,7 @@
 ## Testing Commands
 - Unit tests, `npm run test:unit`
 - Playwright headless browser testing, `npm run test`
+    - *You will need to have playwright installed and necessary dependencies.*
+    - The failure will list these commands needing to be run if not available `npx playwright install` and `npx playwright install-deps`
 
 *Target release environments require specific adapters that can be found [here](https://kit.svelte.dev/docs/adapters)*
